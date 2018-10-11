@@ -1,0 +1,19 @@
+<p>
+  one works!
+</p>
+
+<textarea [(ngModel)]="text"></textarea>
+<button type="button" (click)="onDown('txt', false)">Save Text</button>
+<button type="button" (click)="onDown('json', false)">Save JSON</button>
+
+<button type="button" (click)="onDown('txt', false)">Save Txt</button>
+<button type="button" (click)="onDown('docx', false)">Save Word</button>
+<button type="button" (click)="onDown('xlsx', false)">Save Excel</button>
+<button type="button" (click)="onDown('csv', false)">Save CSV</button>
+<button type="button" (click)="onDown('pptx', false)">Save PPT</button>
+<button type="button" (click)="onDown('pdf', false)">Save PDF</button>
+<button type="button" (click)="onDown('zip', true)">Save Zip</button>
+<button type="button" (click)="onDown('7z', true)">Save 7z</button>
+<button type="button" (click)="onDown('jpg', true)">Save JPG</button>
+<button type="button" (click)="onDown('gif', true)">Save Gif</button>
+<button type="button" (click)="onDown('png', true)">Save Png</button>
